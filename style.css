@@ -104,4 +104,24 @@ nav ul li a:hover::after{
     padding: 10px 20px;
     margin-right: 20px;
     border: 2px solid #fff;
+    display: flex;
+    align-items: center;
+}
+
+.text-box a span {
+    font-size: 30px;
+    line-height: 15px;
+    margin-left: 5px;
+}
+
+.social-icons {
+    position: absolute;
+    right: 5%;
+    bottom: 8%;
+}
+
+.social-icons img {
+    width: 25px;
+    display: block;
+    margin: 25px 5px;
 }
